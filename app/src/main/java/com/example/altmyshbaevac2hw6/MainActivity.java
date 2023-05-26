@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         EditText emailEditText = findViewById(R.id.et_email);
         EditText passwordEditText = findViewById(R.id.et_password);
         Button buttonEnter = findViewById(R.id.btn_enter);
-        buttonEnter.setBackgroundResource(R.drawable.bg_button_enabled);
+        buttonEnter.setBackgroundResource(R.drawable.bg_button);
     }
 }

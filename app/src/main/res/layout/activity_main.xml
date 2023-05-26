@@ -41,6 +41,7 @@
 
 
         <TextView
+            android:gravity="center"
             android:paddingHorizontal="45dp"
             android:layout_marginTop="20dp"
             android:id="@+id/tv_welcome_hint"
@@ -58,7 +59,7 @@
             android:inputType="textEmailAddress"
             android:background="@drawable/bg_edittext"
             android:textSize="18sp"
-            android:textColor="@color/grey"
+            android:textColor="@color/gray"
             android:hint="Введите вашу почту"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -71,13 +72,15 @@
             android:inputType="textPassword"
             android:background="@drawable/bg_edittext"
             android:textSize="18sp"
-            android:textColor="@color/grey"
+            android:textColor="@color/gray"
             android:hint="Введите пароль"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <com.google.android.material.button.MaterialButton
-            android:background="@drawable/bg_button_enabled"
+            android:textSize="18sp"
+            android:text="Войти"
+            android:background="@drawable/bg_button"
             android:id="@+id/btn_enter"
             android:layout_marginHorizontal="16dp"
             android:layout_width="match_parent"
